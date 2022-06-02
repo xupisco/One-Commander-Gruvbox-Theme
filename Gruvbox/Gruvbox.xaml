@@ -107,7 +107,7 @@
     -->
     <Style x:Key="FilesPanelEdgeBorder" TargetType="{x:Type Border}">
         <Setter Property="Margin" Value="0,0,0,0" />
-        <Setter Property="BorderThickness" Value="0,0,2,0" />
+        <Setter Property="BorderThickness" Value="0,0,1,0" />
         <Setter Property="BorderBrush" Value="{DynamicResource SystemControlForegroundAccentBrush}" />
         <Setter Property="HorizontalAlignment" Value="Right" />
         <Setter Property="Width" Value="20" />
@@ -253,7 +253,7 @@
     <!--  Folder style when selected in ancestor (non-current) Files Panel  -->
     <Style x:Key="FolderItemSelectedBorder" TargetType="{x:Type Border}">
         <Setter Property="CornerRadius" Value="3,0,0,3" />
-        <Setter Property="BorderThickness" Value="2,2,0,2" />
+        <Setter Property="BorderThickness" Value="1,1,0,1" />
         <Setter Property="BorderBrush" Value="{DynamicResource SystemControlForegroundAccentBrush}" />
         <Setter Property="Margin" Value="0,0,-2,0"/>        <!--This is so that border of selected folder in column doesn't go over the edge of the panel on the right-->
         <Setter Property="Background" Value="#282828" />
@@ -291,7 +291,6 @@
         <Setter Property="CornerRadius" Value="4,4,0,0" />
         <!--  Set CornerRadius to 0 for sharp edges  -->
         <!--
-        <Setter Property="CornerRadius" Value="0,0,0,0" />
         <Setter Property="BorderBrush" Value="#3E3C41" />
         <Setter Property="BorderThickness" Value="0,0,2,0" />
         <Setter Property="Background" Value="Transparent"/>
@@ -409,7 +408,7 @@
         <!--<Setter Property="BorderBrush" Value="#04AAAC" />-->
         <Setter Property="BorderThickness" Value="0,1,0,0" />
     </Style>
-    <Style x:Key="PreviewResizerHorizontalBorder"  TargetType="{x:Type Border}"  BasedOn="{StaticResource ResizerBorderBase}">
+    <Style x:Key="PreviewResizerHorizontalBorder" TargetType="{x:Type Border}"  BasedOn="{StaticResource ResizerBorderBase}">
         <Setter Property="BorderThickness" Value="0,1,0,0" />
         <Setter Property="Margin" Value="0,0,0,0" />
     </Style>
