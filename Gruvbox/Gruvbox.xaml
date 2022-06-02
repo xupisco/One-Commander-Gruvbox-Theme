@@ -9,7 +9,7 @@
     <!--Keep this line, and change depending on if Light or Dark theme; case sensitive-->
 
     <!--
-        Theme Author: Milos Paripovic
+        Theme Author: Leandro Voltolino <leandro@voltolino.com>
 
         Copy the whole Theme folder from /Themes/ and do mods there (themes with same name as official ones will be overwritten on program update)
 
@@ -51,7 +51,7 @@
     </Style>
 
     <!--  Highlighted Text, like GB portion of file size, or number of selected files. Can be the same as TextPrimaryBrush to keep the same color  -->
-    <SolidColorBrush x:Key="TextImportantBrush" Color="#0f92fe" />
+    <SolidColorBrush x:Key="TextImportantBrush" Color="#8ec07c" />
 
 
 
@@ -235,7 +235,7 @@
 
     <!--  For now only to control the corner radius; may be removed in the future  -->
     <Style x:Key="ItemSelectionBorder" TargetType="{x:Type Border}">
-        <Setter Property="CornerRadius" Value="4,0,0,4" />
+        <Setter Property="CornerRadius" Value="0,0,0,0" />
     </Style>
 
     <!--  Base folder style in Files Panel  -->
@@ -252,7 +252,7 @@
 
     <!--  Folder style when selected in ancestor (non-current) Files Panel  -->
     <Style x:Key="FolderItemSelectedBorder" TargetType="{x:Type Border}">
-        <Setter Property="CornerRadius" Value="3,0,0,3" />
+        <Setter Property="CornerRadius" Value="0,0,0,0" />
         <Setter Property="BorderThickness" Value="1,1,0,1" />
         <Setter Property="BorderBrush" Value="{DynamicResource SystemControlForegroundAccentBrush}" />
         <Setter Property="Margin" Value="0,0,-2,0"/>        <!--This is so that border of selected folder in column doesn't go over the edge of the panel on the right-->

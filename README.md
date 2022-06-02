@@ -6,6 +6,12 @@ My humble attempt to create the **amazing** gruvbox theme for the [One Commander
 ### How to install?
 Just copy the `Gruvbox` folder (in this repo) to the One Commander themes folder at `c:\Users\<your user name>\OneCommander\Themes` (if installed from Microsoft Store) or just `\Themes` folder for the portable version.
 
+### Optional icons (WIP)
+- FolderIcons: Copy from/to `Resources\FolderIcons\Gruvbox`
+- MainFolderIcon: Copy from/to `Resources\MainFolderIcon\Gruvbox.png`
+
+Icons from: [Remix Icons](https://remixicon.com/)
+
 ### Additional info
 - Accent color: <span style="color:#ebdbb2">#44ebdbb2</span> (with alpha)
 - Red: <span style="color:#fb4934">#fb4934</span>
