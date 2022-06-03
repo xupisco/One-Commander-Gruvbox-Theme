@@ -157,12 +157,12 @@
 
 
     <Style x:Key="FilesPanelTitle" TargetType="{x:Type TextBlock}">
-        <Setter Property="Margin" Value="10,2,0,0" />
-        <Setter Property="FontSize" Value="18" />
+        <Setter Property="Margin" Value="10,4,0,0" />
+        <Setter Property="FontSize" Value="14" />
         <Setter Property="Foreground" Value="#fbf1c7" />
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Foreground" Value="{DynamicResource SystemControlForegroundAccentBrush}" />
+                <Setter Property="Foreground" Value="#fabd2f" />
             </Trigger>
         </Style.Triggers>
     </Style>
@@ -170,8 +170,8 @@
         <Setter Property="Text" Value="\" />
         <!--  Here you can set another path separator like >  -->
 
-        <Setter Property="Margin" Value="0,2,0,0" />
-        <Setter Property="FontSize" Value="18" />
+        <Setter Property="Margin" Value="1,4,1,0" />
+        <Setter Property="FontSize" Value="14" />
         <Setter Property="Foreground" Value="{DynamicResource TextUnimportantBrush}" />
     </Style>
 
