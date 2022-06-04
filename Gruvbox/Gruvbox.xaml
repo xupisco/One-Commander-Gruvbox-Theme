@@ -108,7 +108,7 @@
     <Style x:Key="FilesPanelEdgeBorder" TargetType="{x:Type Border}">
         <Setter Property="Margin" Value="0,0,0,0" />
         <Setter Property="BorderThickness" Value="0,0,1,0" />
-        <Setter Property="BorderBrush" Value="{DynamicResource SystemControlForegroundAccentBrush}" />
+        <Setter Property="BorderBrush" Value="#505050" />
         <Setter Property="HorizontalAlignment" Value="Right" />
         <Setter Property="Width" Value="20" />
         <Setter Property="Background">
@@ -251,12 +251,13 @@
     </Style>
 
     <!--  Folder style when selected in ancestor (non-current) Files Panel  -->
+    <!--  Colum panel folders  -->
     <Style x:Key="FolderItemSelectedBorder" TargetType="{x:Type Border}">
         <Setter Property="CornerRadius" Value="0,0,0,0" />
-        <Setter Property="BorderThickness" Value="1,1,0,1" />
+        <Setter Property="BorderThickness" Value="0,0,0,0" />
         <Setter Property="BorderBrush" Value="{DynamicResource SystemControlForegroundAccentBrush}" />
         <Setter Property="Margin" Value="0,0,-2,0"/>        <!--This is so that border of selected folder in column doesn't go over the edge of the panel on the right-->
-        <Setter Property="Background" Value="#282828" />
+        <Setter Property="Background" Value="#505050" />
         <!--  best if the same as FilesPanelBorder so parent folder blend into child panel  -->
     </Style>
 
@@ -296,7 +297,7 @@
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="Margin" Value="-2,6,-2,0" />
          These 5 if you want just line separated tabs-->
-        <Setter Property="Background" Value="#1b1a1d" />
+        <Setter Property="Background" Value="#aa191919" />
         <Setter Property="Padding" Value="0,0,0,0" />
         <Setter Property="Margin" Value="0,2,2,0" />
     </Style>
@@ -307,7 +308,7 @@
         <!--  Uncomment for border around non-active tab  -->
         <!--<Setter Property="BorderThickness" Value="1,1,0,1"/>
                     <Setter Property="BorderBrush" Value="Transparent" />-->
-        <Setter Property="Background" Value="#3E3C41" />
+        <Setter Property="Background" Value="#282828" />
         <Setter Property="Padding" Value="0,2,0,0" />
         <Setter Property="Margin" Value="0,2,0,0" />
         <Setter Property="Effect" Value="{DynamicResource HoverItemEffect}" />
